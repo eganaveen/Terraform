@@ -15,7 +15,7 @@ output "varshell" {
 }
 
 variable "anyname" {}
-output "varshell" {
+output "anyname" {
   value = var.anyname
 }
 
