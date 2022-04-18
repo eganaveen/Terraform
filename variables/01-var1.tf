@@ -25,3 +25,10 @@ output "terraormvar" {
 }
 
 ## terraform apply --auto-approve -var-file=sample.tfvars -var var_cli=cli.com
+
+#OUTPUT:
+#   OUT         = "customname.tfvars"
+#   anyname     = "anyname.auto.tfvars"
+#   terraormvar = "terraform.tfvars"
+#   varcli      = "cli.com"
+#   varshell    = "shell.com"
