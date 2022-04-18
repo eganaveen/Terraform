@@ -8,6 +8,6 @@ terraform {
 }
 
 resource "aws_instance" "ec2-instance" {
-  region = "us-east-1"
+  ami = "ami-0bb6af715826253bf"
   instance_type = "t3.micro"
 }
