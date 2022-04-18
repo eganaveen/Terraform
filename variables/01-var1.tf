@@ -19,5 +19,9 @@ output "anyname" {
   value = var.anyname
 }
 
+variable "terraformtfvars" {}
+output "terraormvar" {
+  value = var.terraformtfvars
+}
 
 ## terraform apply --auto-approve -var-file=sample.tfvars -var var_cli=cli.com
