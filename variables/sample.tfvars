@@ -1,1 +1,1 @@
-URL = "www.google.com"
+URL = "customname.tfvars"
